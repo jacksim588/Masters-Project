@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-directory = r'C:\Users\Clamfighter\Machine_Learning_Project\my_env\Masters\Output\JS_Low_Energy_RMSD.csv'
+directory = r'C:\Users\Clamfighter\Machine_Learning_Project\my_env\Masters\T2_5679_predicted_crystals\JS_Low_Energy_MM(200).csv'
 
 df = pd.read_csv(directory, index_col=[0])
 
